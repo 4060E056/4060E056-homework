@@ -39,4 +39,12 @@ return 0;
                 java
 -------------------------------------------
 -------------------------------------------
-import java.
+import java.util.Scanner;
+	public class 溫度轉換{
+		public static void main(String[] args) {
+		  System.out.print("請輸入華氏溫度：");
+			Scanner scanner=new Scanner(System.in);
+			int a=scanner.nextInt();
+			System.out.printin((a-32)*5/9);
+		}
+	}
